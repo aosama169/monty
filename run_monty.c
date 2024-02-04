@@ -1,5 +1,9 @@
+#define  _GNU_SOURCE
+#include <stdio.h>
+
 #include "monty.h"
 #include <string.h>
+
 
 void free_tokens(void);
 unsigned int token_arr_len(void);
